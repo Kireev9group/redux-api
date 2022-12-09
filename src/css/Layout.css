@@ -1,0 +1,43 @@
+.wrapper {
+  width: 90%;
+  margin: 1em auto;
+}
+
+main {
+  min-height: 80vh;
+  margin-left: 5em;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1.8em;
+  font-size: 1.2em;
+}
+
+.link-active {
+  color: black;
+  font-weight: 1000;
+  text-decoration: none;
+}
+
+.link {
+  color: #333333;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2em 0em;
+  color: #969696;
+}

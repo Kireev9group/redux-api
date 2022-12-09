@@ -1,0 +1,28 @@
+.photoSection {
+  margin-top: 2em;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 4fr));
+  gap: 1em;
+}
+
+.mainSection {
+  display: block;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+}
+
+.linkUser:link {
+  color: blue;
+}
+
+.linkUser:visited {
+  color: red;
+}
+
+.linkUser:hover {
+  color: #0000ff;
+}

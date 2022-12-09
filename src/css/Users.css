@@ -1,0 +1,20 @@
+.listUserSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.listUsersLink:link {
+  color: black;
+}
+
+.listUsersLink:visited {
+  color: red;
+}
+
+.listUsersLink:hover {
+  color: blue;
+}
+
+.listUsers {
+  margin-bottom: 0.4em;
+}

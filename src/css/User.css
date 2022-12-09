@@ -1,0 +1,43 @@
+.icon {
+  width: 2em;
+  height: 2em;
+}
+
+.listAlbumsUser {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-bottom: 0.2em;
+}
+
+.linkAlbumsUser:link {
+  color: black;
+}
+
+.linkAlbumsUser:visited {
+  color: red;
+}
+
+.linkAlbumsUser:hover {
+  color: blue;
+}
+
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  color: #969696;
+}
+
+.infoSection h1 {
+  font-size: 5.5em;
+  font-weight: 500;
+  margin-bottom: 0em;
+  color: #000;
+}
+
+h2 {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 3em 0em 0.7em;
+  color: #000;
+}

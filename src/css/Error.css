@@ -1,0 +1,36 @@
+.error {
+  margin-top: 6em;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+}
+
+h4 {
+  margin: 0em;
+  font-weight: 500;
+  font-size: 1.8em;
+}
+
+h5 {
+  margin: 0em;
+  font-weight: 500;
+  font-size: 2.8em;
+}
+
+p {
+  color: black;
+  margin: 0em;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+.linkFromError:link {
+  color: black;
+}
+
+.linkFromError:visited {
+  color: red;
+}
+
+.linkFromError:hover {
+  color: blue;
+}
